@@ -25,7 +25,7 @@ docker run --name keydb -p 6379:6379 -d eqalpha/keydb keydb-server --save "" --a
 flask --app app.py init-db
 flask --app app.py run
 ```
-Abre: http://127.0.0.1:5000
+
 
 ## Ejecutar el worker de Celery
 En otra terminal (con venv activado):
