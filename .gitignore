@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+.env.*
+*.sqlite3
+*.db
+
+# Editor
+.vscode/
+.idea/
+
+# Bytecode cache
+*/__pycache__/*
